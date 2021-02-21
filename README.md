@@ -2,7 +2,7 @@
 Extracts the dresses and hats worn by Miss Lemon in the series Agatha Christie's Poirot
 
 # How I approached this? 
-* *Get the images*: First I needed the images of the character. I scraped Google Images using Selenium to get 42 images with Miss Lemon in it. 
+* *Get the images*: First I needed the images of the character. I scraped Google Images using Selenium and Scrapy to get 42 images with Miss Lemon in it. 
 * *Annotation*: Manually annotated the images (made 2 classes: dress and hat) using Roboflow Annotate. Made bounding boxes around the dresses and hats worn.
 
 ![Images after annotation - tagged dresses and hats](https://github.com/amaj8/Costume-Extractor/blob/main/miss_lemon_costumes_annotated.jpeg)
